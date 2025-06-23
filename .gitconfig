@@ -1,0 +1,26 @@
+[alias]
+	up = pull --rebase
+	re = rebase
+	pfwl = push --force-with-lease
+	ls = stash list
+	ss = stash save
+	sa = stash apply
+	p = push
+	a = add
+	sl = stash list
+	s = status
+	ch = checkout
+	show = show --color-words
+	scw = show --color-words
+	o = origin
+	acm = ! git add . && git commit -m
+  	aeecm = ! git add -- . :!.env && git commit -m
+	c = commit
+	b = branch
+	d = diff
+	fe = fetch
+	tree = log --oneline --decorate --all --graph
+
+[user]
+	name = Name
+	email = email@example.com
